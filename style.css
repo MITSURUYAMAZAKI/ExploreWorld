@@ -13,7 +13,6 @@ ul{
   height: 100%;
   display: flex;
   flex-direction: row;
-  /* justify-content: ; */
   align-items: center;
 }
 
@@ -57,8 +56,10 @@ height: 100vh;
 }
 
 .some_text{
-  /* justify-content: center;
-  align-items: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
 }
 
 .boxes{
@@ -83,8 +84,6 @@ h3{
   justify-content: center;
 }
 
-
-
 footer{
   color: white;
   background-color: #223644;
@@ -93,7 +92,6 @@ footer{
   justify-content: center;
   align-items: center;
 }
-
 
 form{
   display: flex;
